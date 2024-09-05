@@ -9,10 +9,10 @@ $ cd scripts
 # make script executable
 $ chmod 755 kubeplugin 
 $ ls -la kubeplugin   
--rwxr-xr-x 1 vk 572 sep  5 07:58 kubeplugin
+-rwxr-xr-x  1 vk  staff  617 Sep  5 08:14 kubeplugin
 
 # copy to Kubernetes plugin folder
-$ sudo cp ./kubeplugin /usr/local/bin/kubectl-kubeplugin
+$ sudo cp ./kubeplugin /Users/vk/i-data/src/DevOps-Kubernetes/04_kubernetes/kubeplugin
 
 $ kubectl plugin list
 The following compatible plugins are available:
